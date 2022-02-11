@@ -11,8 +11,8 @@ FIRST SET-UP:
     in order to don't replace tables
 4.  Run the Main class src/main/java/com/exercise/WebSecureUsers/WebSecureUsersApplication.java 
     in order to start the web application
-5.  Open in browser the page localhost:8080
+5.  Open on browser the page localhost:8080
 6.  Register the first user (will be with user role)
 7.  Register the second user (will be with user role as well)
 8.  Run testAddRoleToExistingUser in src/test/java/com/exercise/WebSecureUsers/UserRepositoryTests.java 
-    in order to add Admin user to the first user
+    in order to add Admin role to the first user
