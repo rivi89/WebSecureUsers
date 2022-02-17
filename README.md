@@ -1,7 +1,22 @@
 # WebSecureUsers
 Spring Web App
 
-FIRST SET-UP:
+a) H2 DATABASE:
+   -    running the app will be automatically created the 3 tables containing:
+        - set of roles in ROLES_USERS (Admin, User)
+        - 1 new user with Admin role in USERS ->    email:      test0@test.com 
+                                                    password:   test00
+   -    WebApp homepage localhost:8080
+   -    any new user registrated will be with "User" role
+   -    to check the database connect to the page localhost:8080/h2
+        -   JDBC URL: 	jdbc:h2:mem:exerciseDB
+        -   User Name:  root
+        -   Password:   root
+   
+
+
+
+b) mySQL DATABASE:
 
 1.  In mySQL create new schema "exerciseDB" 
     in order to create the database
