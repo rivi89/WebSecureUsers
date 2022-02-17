@@ -1,5 +1,7 @@
-package com.exercise.WebSecureUsers;
+package com.exercise.WebSecureUsers.domain;
 
+
+import com.exercise.WebSecureUsers.domain.Role;
 
 import javax.persistence.*;
 import java.util.HashSet;

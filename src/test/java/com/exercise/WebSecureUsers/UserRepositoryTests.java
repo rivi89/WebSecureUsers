@@ -1,5 +1,9 @@
 package com.exercise.WebSecureUsers;
 
+import com.exercise.WebSecureUsers.domain.Role;
+import com.exercise.WebSecureUsers.domain.RoleRepository;
+import com.exercise.WebSecureUsers.domain.User;
+import com.exercise.WebSecureUsers.domain.UserRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;

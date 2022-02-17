@@ -1,5 +1,7 @@
-package com.exercise.WebSecureUsers;
+package com.exercise.WebSecureUsers.domain;
 
+import com.exercise.WebSecureUsers.domain.Role;
+import com.exercise.WebSecureUsers.domain.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

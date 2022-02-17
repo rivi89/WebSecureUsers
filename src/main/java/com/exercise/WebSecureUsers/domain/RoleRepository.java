@@ -1,5 +1,6 @@
-package com.exercise.WebSecureUsers;
+package com.exercise.WebSecureUsers.domain;
 
+import com.exercise.WebSecureUsers.domain.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

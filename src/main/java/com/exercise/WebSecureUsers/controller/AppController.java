@@ -1,5 +1,9 @@
-package com.exercise.WebSecureUsers;
+package com.exercise.WebSecureUsers.controller;
 
+import com.exercise.WebSecureUsers.domain.Role;
+import com.exercise.WebSecureUsers.domain.User;
+import com.exercise.WebSecureUsers.domain.UserRepository;
+import com.exercise.WebSecureUsers.domain.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

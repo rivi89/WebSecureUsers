@@ -1,5 +1,9 @@
-package com.exercise.WebSecureUsers;
+package com.exercise.WebSecureUsers.domain;
 
+import com.exercise.WebSecureUsers.domain.Role;
+import com.exercise.WebSecureUsers.domain.RoleRepository;
+import com.exercise.WebSecureUsers.domain.User;
+import com.exercise.WebSecureUsers.domain.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -1,5 +1,7 @@
 package com.exercise.WebSecureUsers;
 
+import com.exercise.WebSecureUsers.domain.Role;
+import com.exercise.WebSecureUsers.domain.RoleRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -13,7 +15,8 @@ import java.util.List;
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 @Rollback(value = false)
 public class RoleRepositoryTests {
-    @Autowired RoleRepository repo;
+    @Autowired
+    RoleRepository repo;
 
     @Test
     public void testCreateRole(){

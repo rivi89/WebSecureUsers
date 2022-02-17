@@ -1,4 +1,4 @@
-package com.exercise.WebSecureUsers;
+package com.exercise.WebSecureUsers.domain;
 
 public class Status {
     private static final String SINGLE = "Single";

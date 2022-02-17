@@ -1,5 +1,6 @@
-package com.exercise.WebSecureUsers;
+package com.exercise.WebSecureUsers.config;
 
+import com.exercise.WebSecureUsers.domain.CustomUserDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
