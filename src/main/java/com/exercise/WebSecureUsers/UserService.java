@@ -14,7 +14,7 @@ public class UserService {
     @Autowired
     private RoleRepository role_repo;
 
-    public void saveUserWithDefaultRole(User user){
+    public void saveUserWithDefaultRole(@org.jetbrains.annotations.NotNull User user){
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
         String encodedPassword = encoder.encode(user.getPassword());
         user.setPassword(encodedPassword);

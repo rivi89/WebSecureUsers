@@ -71,7 +71,7 @@ public class UserRepositoryTests {
         // Low value?
         User user = user_repo.findById(1L).get();
 
-        Role roleAdmin = role_repo.findByName("Admin");
+        Role roleAdmin = role_repo.findByName("User");
         user.addRole(roleAdmin);
 
         Role roleUser = new Role(1L);

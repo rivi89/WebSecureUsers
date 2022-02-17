@@ -48,6 +48,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests()
                 .antMatchers("/users").authenticated()
                 .antMatchers("/home").authenticated()
+                //h2 console only
+                .antMatchers("/console/**").permitAll()
                 .anyRequest().permitAll()
                 .and()
                 .formLogin()
@@ -57,6 +59,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .logout().logoutSuccessUrl("/").permitAll()
         ;
+        //h2 console only
+        http.csrf().disable();
+        http.headers().frameOptions().disable();
     }
 
 }
+
